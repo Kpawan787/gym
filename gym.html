@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Training</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section class="banner">
+        <header>
+            <h2 class="logo">Red Apple Fitness Planet </h2>
+            <div class="toggle" onclick="toggleMenu()"></div>
+        </header>
+        <video src="img/SPOT PUBLICITARIO GYM Y BOXEO (CANON M50).mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Be Stronger</h2>
+            <h3>Never give up</h3>
+            <p>“Your health account, your bank account, they’re the same thing. The more you put in, the more you can
+                take out.”</p>
+            <a href="#">Join us</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="img/icons8-facebook-50.png"></a></li>
+            <li><a href="#"><img src="img/icons8-twitter-48.png"></a></li>
+            <li><a href="#"><img src="img/icons8-instagram-48.png"></a></li>
+        </ul>
+    </section>{
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var banner = document.querySelector('.banner');
+            menuToggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
